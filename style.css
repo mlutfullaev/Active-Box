@@ -6,7 +6,7 @@ body {
     -webkit-font-smoothing: 
     antialiased;
 
-    background-color: #000;
+    background-color: #fff;
 }
 *,
 *:before,
@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
 p {
-    margin: 0, 0, 10px;
+    margin: 0 0 10px;
 }
 
 /* Conteiner
@@ -59,7 +59,7 @@ p {
     text-transform: uppercase;
 }
 .nav__link {
-    color: #000;
+    color: #fff;
     margin-left: 50px;
     text-decoration: none;
     opacity: .75;
@@ -99,17 +99,19 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-size: 65px;
     line-height: 1.1;
-    color: #000;
+    color: #fff;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
 }
 .intro__subtitle {
-    margin-bottom: 60px;
-    font-size: 22px;
-    color: #000;
+    font-size: 17px;
+    color: #c23434;
     line-height: 1.5;
     font-weight: 400;
+    width: 750px;
+    margin: 0 auto;
+    padding: 20px 0 40px;
 }
 
 /* Button
@@ -123,7 +125,7 @@ p {
     border-radius: 2px;
     border: 0;
     cursor: pointer;
-    color: #000;
+    color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -222,19 +224,19 @@ p {
     z-index: 2;
     opacity: 0;
     transition: opacity .2s linear;
+    color: #fff;
+    cursor: pointer;
 }
 
 .works__title {
     margin-bottom: 5px;
     font-size: 14px;
     font-weight: 700;
-    color: #000;
     text-transform: uppercase;
 }
 
 .works__text {
     font-size: 14px;
-    color: #000;
 }
 
 /* Team
@@ -333,6 +335,7 @@ p {
     justify-content: center;
     width: 50%;
     padding-left: 80px;
+    color: #fff;
 }
 
 .reviews__text {
@@ -341,13 +344,11 @@ p {
     font-style: italic;
     font-size: 36px;
     line-height: 1.2;
-    color: #000;
 }
 .reviews__author {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #000;
 }
 
 /* Download 
